@@ -1,9 +1,28 @@
+* {
+    box-sizing: border-box;
+   
+}
 
 body {
-background-color: aqua;
-}
-ul#items {
-    list-style-type: none;
     padding: 0;
     margin: 0;
+    text-align: center;
+
+    background-color: aqua;
+}
+nav {
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+  }
+  
+  ul#items {
+    list-style-type: none;
+  }
+
+  img {
+    max-width: 400px;
+    width: 50%;
+    padding: 10px 10px;
+    margin: 0 auto;
   }
