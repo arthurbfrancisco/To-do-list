@@ -119,11 +119,12 @@
   .addBtn:hover {
     background-color: #5353f4;
   }
-  .background-container {
+  .background-image {
     background-size: cover; /* Adjust as needed (cover, contain, or specific dimensions) */
     background-position: center; /* Adjust as needed (top, bottom, left, right, or specific coordinates) */
     background-repeat: no-repeat; /* Adjust if you want the image to repeat */
     width: 100%; /* Adjust to the desired width */
     height: 100vh; /* Adjust to the desired height */
+    object-fit: cover;
   }
   
