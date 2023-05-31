@@ -1,11 +1,12 @@
-body {
-    margin: 0;
-    min-width: 250px;
-  }
-  
+
   /* Include the padding and border in an element's total width and height */
   * {
     box-sizing: border-box;
+  }
+
+  body {
+    margin: 0;
+    min-width: 250px;
   }
   
   /* Remove margins and padding from the list */
@@ -116,10 +117,9 @@ body {
   }
   
   .addBtn:hover {
-    background-color: #bbb;
+    background-color: #5353f4;
   }
   .background-container {
-    background-image: url('your-image.jpg'); /* Replace with the path or URL to your image */
     background-size: cover; /* Adjust as needed (cover, contain, or specific dimensions) */
     background-position: center; /* Adjust as needed (top, bottom, left, right, or specific coordinates) */
     background-repeat: no-repeat; /* Adjust if you want the image to repeat */
