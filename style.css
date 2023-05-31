@@ -118,3 +118,12 @@ body {
   .addBtn:hover {
     background-color: #bbb;
   }
+  .background-container {
+    background-image: url('your-image.jpg'); /* Replace with the path or URL to your image */
+    background-size: cover; /* Adjust as needed (cover, contain, or specific dimensions) */
+    background-position: center; /* Adjust as needed (top, bottom, left, right, or specific coordinates) */
+    background-repeat: no-repeat; /* Adjust if you want the image to repeat */
+    width: 100%; /* Adjust to the desired width */
+    height: 100vh; /* Adjust to the desired height */
+  }
+  
