@@ -143,9 +143,7 @@
 
 }
 
-.col-2 {
-    flex-grow: 2;
-}
+
 
 .footer div h3{
     font-weight: 300;
@@ -160,10 +158,6 @@
     margin-bottom: 5px;
 }
 
-.col-3 {
-    display: block;
-    text-decoration: none;
-    color: #efefef;
-    margin-bottom: 5px;
+.col-2 {
+    flex-grow: 2;
 }
-
