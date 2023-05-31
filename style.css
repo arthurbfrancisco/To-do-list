@@ -135,29 +135,21 @@
     display: flex;
     position: fixed;
     bottom: 0;
-   
-
- }
+}
 .footer div{
     text-align: center;
-
 }
-
-
-
 .footer div h3{
     font-weight: 300;
     margin-bottom: 10px;
     letter-spacing: 1px;
 }
-
 .col-1 a{
     display: block;
     text-decoration: none;
     color: #efefef;
     margin-bottom: 5px;
 }
-
 .col-2 {
     flex-grow: 2;
 }
