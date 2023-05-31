@@ -10,40 +10,23 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@1,300&family=Roboto&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-<header>
-  <nav>
-      <div class="dropdown-menu" aria-labelledby="triggerId">
-      <button class="dropdown-item" href="#">RESET</button>
-      <button class="dropdown-item disabled" href="#">REFRESH</button>
-    </div>
-   </nav>
-</header>
 <body>
+<div id="myDIV" class="header">
+  <h2>My To Do List</h2>
+  <input type="text" id="myInput" placeholder="Title...">
+  <span onclick="newElement()" class="addBtn">Add</span>
+</div>
+<ul id="myUL">
+  <li>Hit the gym</li>
+  <li class="checked">Pay bills</li>
+  <li>Excercise</li>
+  <li>Meditate</li>
+  <li>Read for 15 minutes</li>
+  <li>Study</li>
+</ul>
+<div class="background-image">
   <img src="image/imageOne.jpeg" alt="listofchores" />
-<div id="container">
- <ul id="items">
-   <section>
-    <li><input type="checkbox" name="chores[]" value="do-the-dishes">Do the dishes</li>
-    <li><input type="checkbox" name="chores[]" value="take-out-the-trash">Take out the trash</li>
-    <li><input type="checkbox" name="chores[]" value="mow-the-lawn">Mow the lawn</li>
-    <li><input type="checkbox" name="chores[]" value="clean-the-bathroom">Clean the bathroom</li>
-    <li><input type="checkbox" name="chores[]" value="dust-the-furniture">Dust the furniture</li>
-    
-    <li><input type="checkbox" name="chores[]" value="do-the-dishes">Do the dishes</li>
-    <li><input type="checkbox" name="chores[]" value="take-out-the-trash">Take out the trash</li>
-    <li><input type="checkbox" name="chores[]" value="mow-the-lawn">Mow the lawn</li>
-    <li><input type="checkbox" name="chores[]" value="clean-the-bathroom">Clean the bathroom</li>
-    <li><input type="checkbox" name="chores[]" value="dust-the-furniture">Dust the furniture</li>
-    <section/>
-  </ul>
-<div id="due-date">
-<input type="date" />
 </div>
-<div id="checkbox">
-<input type="checkbox" />
-</div>
-</div>
-
 
 <script src="script.js"></script>
 </body>
