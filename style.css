@@ -2,12 +2,15 @@
   /* Include the padding and border in an element's total width and height */
   * {
     box-sizing: border-box;
+ 
   }
 
   body {
-    margin: 0;
-    min-width: 250px;
-  }
+        background: url(image/imageOne.jpeg) no-repeat center fixed; 
+        background-size: cover;
+        margin: 0;
+        min-width: 250px;
+     }
   
   /* Remove margins and padding from the list */
   ul {
@@ -78,11 +81,15 @@
   
   /* Style the header */
   .header {
-    background-color: #1d0907;
+    background-image: url('image/header.jpeg');
     padding: 30px 40px;
     color: white;
     text-align: center;
-  }
+    font-family: Arial, sans-serif; /* Specify a desired font */
+    text-transform: uppercase; /* Convert text to uppercase */
+    letter-spacing: 2px; /* Add letter spacing */
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow */
+   }
   
   /* Clear floats after the header */
   .header:after {
@@ -119,12 +126,3 @@
   .addBtn:hover {
     background-color: #5353f4;
   }
-  .background-image {
-    background-size: cover; /* Adjust as needed (cover, contain, or specific dimensions) */
-    background-position: center; /* Adjust as needed (top, bottom, left, right, or specific coordinates) */
-    background-repeat: no-repeat; /* Adjust if you want the image to repeat */
-    width: 100%; /* Adjust to the desired width */
-    height: 100vh; /* Adjust to the desired height */
-    object-fit: cover;
-  }
-  
