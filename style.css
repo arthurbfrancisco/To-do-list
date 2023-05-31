@@ -126,3 +126,44 @@
   .addBtn:hover {
     background-color: #5353f4;
   }
+  .footer {
+    margin-top: 350px;
+    width: 100%;
+    padding: 5px 1%;
+    background: #333 ;
+    color: #efefef;
+    display: flex;
+    position: fixed;
+    bottom: 0;
+   
+
+ }
+.footer div{
+    text-align: center;
+
+}
+
+.col-2 {
+    flex-grow: 2;
+}
+
+.footer div h3{
+    font-weight: 300;
+    margin-bottom: 10px;
+    letter-spacing: 1px;
+}
+
+.col-1 a{
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 5px;
+}
+
+.col-3 {
+    display: block;
+    text-decoration: none;
+    color: #efefef;
+    margin-bottom: 5px;
+}
+
